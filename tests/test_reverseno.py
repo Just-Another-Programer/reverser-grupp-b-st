@@ -6,7 +6,7 @@ class TestReverse(unittest.TestCase):
         self.assertEqual(reverse(0), 0)
 
     def test_ott(self):
-        self.assertEqual(reverse(123), 321)
+        self.assertEqual(reverse(234), 432)
 
 if __name__ == '__main__':
     unittest.main()
