@@ -7,19 +7,20 @@ This simple program reads a number from the keyboard
 and prints its reverse.
 
 
-## Compiling and Running
+## Running the program
 
-Compile and run with:
+You can run the program from the Makefile:
 
-	make
 	make run
+
+Or directly by using `python`:
+
+	$ python src/reverser.py
+	Type a number: 123
+	Its reverse is: 321
 
 Type an integer to get its reverse.
 Leading zeroes are discarded.
-
-	$ ./reverser
-	Type a number: 123
-	Its reverse is: 321
 
 
 ## Running the tests
